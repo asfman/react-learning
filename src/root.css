@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  padding: 18px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.sidebar {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+ul, ol {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+.detail {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f7f7f7;
+  border-radius: 10px;
+}
